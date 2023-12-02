@@ -1,0 +1,44 @@
+body {
+	background: #34495e;
+}
+
+#todo_box { position: relative; width: 800px; margin: 0 auto; }
+#todo_box h3 { margin-top: 20px;	padding: 10px; border-bottom: solid 2px #516e7f; font-size: 20px; }
+#todo_box h3#todo_title { margin: 30px 0 10px 0;}
+#todo_title { font-weight: bolder; }
+
+#toDo{
+	font-weight: lighter;
+	padding:2rem;
+}
+
+.gw-example{
+	font-weight: bold;
+	padding:1.5rem;
+	border-radius:.25rem;
+}
+
+.gw-checked{
+	color: #2092aa !important;
+	text-decoration: line-through;
+}
+
+.margin-top-2{
+	margin-top:.5rem;
+}
+
+.box-shadow{
+	box-shadow:0 4px 8px 0 #ccc, 0 6px 20px 0 #ccc;
+}
+
+.border-radius-1{
+	border-radius:.25rem;
+}
+
+.add_section h2{
+	font-size:1.5rem;
+}
+
+.show_todo_section .card{
+	margin-bottom:1rem;
+} 
