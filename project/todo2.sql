@@ -1,0 +1,1 @@
+CREATE TABLE `todo2` ( `id` int(11) NOT NULL, `title` varchar(255) NOT NULL DEFAULT '', `checked` tinyint(1) NOT NULL DEFAULT 0, `datetime` datetime NOT NULL DEFAULT current_timestamp(), `user_id` varchar(15) DEFAULT NULL )
